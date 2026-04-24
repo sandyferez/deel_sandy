@@ -1,0 +1,59 @@
+# Deel Travel — product home task
+
+## What's here
+
+1. **Deel-Travel-Deck.pdf** — 16-slide presentation (landscape)
+2. **Deel-Travel-Memo.pdf** — 3-page strategy memo (A4 portrait)
+3. **Deel-Travel-Prototype.html** — clickable prototype, single HTML file, 6 screens
+
+## Prototype navigation
+
+Open `Deel-Travel-Prototype.html` in any browser. The left sidebar under "Travel" has six linked screens:
+
+- **Overview** — dashboard with upcoming trips, PE-risk nudge, team on the road
+- **Book a trip** — AI chat booking (conversational UX with inline policy and visa checks)
+- **Flight search** — traditional search results with compliance badges
+- **Booking review** — full trip detail with compliance panel and payment options
+- **Approvals** — manager view with live PE exposure map
+- **Reconciliation** — how the trip ties back to Deel Payroll and Deel Card
+
+Clicks between screens work. The "New trip" button in the top-right takes you to the AI booking flow.
+
+## Getting a shareable link for the prototype
+
+Three options, 30 seconds each:
+
+**Option A — tiiny.host (no account, instant)**
+
+1. Go to https://tiiny.host
+2. Drag `Deel-Travel-Prototype.html` onto the page
+3. Copy the generated URL
+
+**Option B — Vercel (free account)**
+
+1. `npx vercel deploy Deel-Travel-Prototype.html` from terminal
+2. Follow the login prompt
+3. Copy the deployment URL
+
+**Option C — Netlify Drop (free account)**
+
+1. Go to https://app.netlify.com/drop
+2. Drag the file onto the drop zone
+3. Copy the generated URL
+
+Any of these gives you a public URL to share in the submission.
+
+## The thesis, one line
+
+Deel should not fight Navan on booking. Deel should own the category no one else can serve: travel for the global, distributed, non-employee workforce. The distribution, compliance rails, and payment infrastructure are already built. Travel is the last missing Deel module.
+
+## Key numbers cited
+
+- Corporate travel market 2026: $1.5T (GBTA)
+- 66% of spend unmanaged · 42% booking compliance
+- SAP Concur market share: 49.6%
+- Navan: 7,000 customers, $10B managed, $702M TTM revenue, 92% of revenue from supplier commission + interchange
+- Deel: 35,000+ customers, $22B annual payroll, 150+ countries, 250 legal entities
+- Deel Mobility launched March 2026 (visa + immigration, 100+ countries)
+- Year 2 modelled revenue: ~$255M · ~80% gross margin
+- Ring-fenced team ask: 30 people for FY26 · 90 days to beta
